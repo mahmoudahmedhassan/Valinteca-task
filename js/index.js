@@ -11,12 +11,12 @@ class Product {
 
 // Create an array of Product objects
 const products = [
-  new Product("Gold Coin","112.55","../imges/pexels-pixabay-106152.jpg",false,1),
-  new Product("Silver Ring","50.99","../imges/natalia-jonas-WkgJjFcRleQ-unsplash.jpg",false,2),
-  new Product("Diamond Necklace","1200.00","../imges/ian-talmacs-yctbxRAubvQ-unsplash.jpg",false,3),
-  new Product("Platinum Watch","890.00","../imges/brigitte-tohm-j8C66j15nAk-unsplash.jpg",false,4),
-  new Product("Ruby Earrings","350.00","../imges/coppertist-wu-WG12blLiN4U-unsplash.jpg",false,5),
-  new Product("Sapphire Bracelet","680.00","../imges/sabrianna-AhIQL2CKq7g-unsplash.jpg",false,6),
+  new Product("Gold Coin","112.55","imges/pexels-pixabay-106152.jpg",false,1),
+  new Product("Silver Ring","50.99","imges/natalia-jonas-WkgJjFcRleQ-unsplash.jpg",false,2),
+  new Product("Diamond Necklace","1200.00","imges/ian-talmacs-yctbxRAubvQ-unsplash.jpg",false,3),
+  new Product("Platinum Watch","890.00","imges/brigitte-tohm-j8C66j15nAk-unsplash.jpg",false,4),
+  new Product("Ruby Earrings","350.00","imges/coppertist-wu-WG12blLiN4U-unsplash.jpg",false,5),
+  new Product("Sapphire Bracelet","680.00","imges/sabrianna-AhIQL2CKq7g-unsplash.jpg",false,6),
 ];
 
 // Get the products div

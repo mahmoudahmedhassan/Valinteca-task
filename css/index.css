@@ -320,6 +320,12 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+.modal_add_to_cart{
+    background-color: #000;
+}
+.modal_remove_from_cart{
+    background-color:red;
+}
 
 .show-modal {
     opacity: 1;
