@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valinteca-task</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- header -->
+    <!-- nav -->
+    <section class="top-nav">
+        <div>
+            Valinteca-task
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li id="menu-cart"> <i class='bx bx-shopping-bag bag_icon' id='cart-icon'><span id='cart'>0</span></i>
+                <ul class="nav-dropdown" id="nav-dropdown">
+                  
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <!-- nav -->
+    <!-- header -->
+    <section class="content" >
+        <div class="products" id="products"></div>
+        <div class="modal" id="modal"></div>
+    </section>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
